@@ -1,4 +1,5 @@
 🎯 “Roll the dice, beat your friend, and let JavaScript decide the champion!”
+
 🎲 Dice Duel — A Fun 2-Player Dice Game!
 This is a simple yet delightful 2-player dice game built with HTML, CSS, and JavaScript. Just hit the Roll Dice button, and let the game decide who wins! With dynamic dice animations, a clean UI, and a touch of friendly competition, it's perfect for a quick break or showing off your frontend skills.
 
