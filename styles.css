@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #4b0082;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.dice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s ease;
+}
+
+img.shake {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+button {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5b4cb0;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 1rem;
+  color: #666;
+}
